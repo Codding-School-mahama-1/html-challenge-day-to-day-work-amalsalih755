@@ -9,44 +9,52 @@
     <!-- Use the h1 tag to define the main heading of your page and use h2, h3, and so on to define subheadings. -->
 
     <!-- header div -->
-    <div>
+    <header>
       <!-- page header -->
       <h1>Welcome to My First HTML5 Page</h1>
       <!-- navigation div -->
-      <div>
+      
+      <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
-    </div>
+        </nav>
+        </header>
     <!-- main content div -->
-    <div>
+    <main>
+      <div id="home" style="width: 100vw;height: 100vw;background-color: aqua;">
       <!-- Article div -->
-      <div>
+      <article>
+        <a href="">about</a>
         <!-- Article sub-heading -->
         <h1>First Article</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et est
           nisi. Donec eget massa vel justo blandit commodo.
         </p>
-      </div>
+        </div>
+        </article>
       <!-- Article div -->
-      <div>
+      <div id="about" style="width: 100vw;height: 100vw;background-color: rgb(159, 252, 72);">
         <!-- Article sub-heading -->
-        <h1>Second Article</h1>
+         <article>
+        <h1>Second Article</h1></footer>
         <p>
           Phasellus ullamcorper, nisi eget sollicitudin ultrices, justo nibh
           mattis urna, eu egestas libero nulla non nisl. Suspendisse iaculis,
           leo a dapibus rutrum, eros ante pulvinar elit, non euismod quam elit
           in elit.
         </p>
+        </article>
       </div>
-    </div>
+    </main>
     <!-- footer div -->
-    <div>
-      <p>&copy; My First HTML5 Page. All rights reserved.</p>
+     <footer>
+    <div id="contact" style="height: 100vw;background-color: rgb(243, 105, 202);">
+      <p> My First HTML5 Page. All rights reserved.</p>
     </div>
+    </footer>
   </body>
 </html>
